@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "donasis",
+  "info": {
+    "singularName": "donasi",
+    "pluralName": "donasis",
+    "displayName": "Donasi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judul_donasi": {
+      "type": "string",
+      "required": true
+    },
+    "deskripsi_donasi": {
+      "type": "text",
+      "required": true
+    },
+    "foto_donasi": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "struktur_pengurus_direktorats",
+  "info": {
+    "singularName": "struktur-pengurus-direktorat",
+    "pluralName": "struktur-pengurus-direktorats",
+    "displayName": "Struktur-Pengurus-Direktorat"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama_pengurus": {
+      "type": "string",
+      "required": true
+    },
+    "jabatan_pengurus": {
+      "type": "string",
+      "required": true
+    },
+    "foto_pengurus": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

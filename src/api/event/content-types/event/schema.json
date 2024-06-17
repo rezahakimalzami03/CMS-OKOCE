@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judul_event": {
+      "type": "string",
+      "required": true
+    },
+    "tanggal_event": {
+      "type": "date",
+      "required": true
+    },
+    "harga_event": {
+      "type": "string",
+      "required": true
+    },
+    "point_event": {
+      "type": "string",
+      "required": true
+    },
+    "foto_event": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "url_pendaftaran": {
+      "type": "text",
+      "required": true
+    },
+    "deskripsi_event": {
+      "type": "text",
+      "required": true
+    },
+    "tempat_event": {
+      "type": "text",
+      "required": true
+    },
+    "quota_event": {
+      "type": "string",
+      "required": true
+    },
+    "durasi_event": {
+      "type": "string",
+      "required": true
+    },
+    "narasumber": {
+      "type": "text",
+      "required": true
+    },
+    "deskripsi_event_2": {
+      "type": "text",
+      "required": false
+    },
+    "deskripsi_event_3": {
+      "type": "text"
+    },
+    "deskripsi_event_4": {
+      "type": "text"
+    },
+    "deskripsi_event_5": {
+      "type": "text"
+    },
+    "deskripsi_event_6": {
+      "type": "text"
+    },
+    "contact_person": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

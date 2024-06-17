@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "struktur_pengurus_eksekutifs",
+  "info": {
+    "singularName": "struktur-pengurus-eksekutif",
+    "pluralName": "struktur-pengurus-eksekutifs",
+    "displayName": "Struktur-Pengurus-Eksekutif"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama_pengurus": {
+      "type": "string",
+      "required": true
+    },
+    "jabatan_pengurus": {
+      "type": "string",
+      "required": true
+    },
+    "foto_pengurus": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

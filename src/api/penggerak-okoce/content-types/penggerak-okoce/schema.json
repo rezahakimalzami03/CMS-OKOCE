@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "penggerak_okoces",
+  "info": {
+    "singularName": "penggerak-okoce",
+    "pluralName": "penggerak-okoces",
+    "displayName": "Penggerak-OKOCE"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama_penggerak": {
+      "type": "string",
+      "required": true
+    },
+    "deskripsi_penggerak": {
+      "type": "string",
+      "required": true
+    },
+    "foto_penggerak": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

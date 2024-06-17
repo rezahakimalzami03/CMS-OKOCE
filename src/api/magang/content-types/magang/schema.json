@@ -1,0 +1,112 @@
+{
+  "kind": "collectionType",
+  "collectionName": "magangs",
+  "info": {
+    "singularName": "magang",
+    "pluralName": "magangs",
+    "displayName": "Magang",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judul_magang": {
+      "type": "string",
+      "required": true
+    },
+    "lokasi_magang": {
+      "type": "string",
+      "required": true
+    },
+    "durasi_magang": {
+      "type": "string",
+      "required": true
+    },
+    "jenis_magang": {
+      "type": "enumeration",
+      "enum": [
+        "Hybrid",
+        "WFO (Work From Office)",
+        "WFH (Work From Home)"
+      ],
+      "required": true
+    },
+    "foto_magang": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "tentang_program": {
+      "type": "text",
+      "required": true
+    },
+    "benefit_magang": {
+      "type": "text",
+      "required": true
+    },
+    "kriteria_peserta": {
+      "type": "text",
+      "required": true
+    },
+    "url_msib": {
+      "type": "text",
+      "required": true
+    },
+    "kompetensi_1": {
+      "type": "text",
+      "required": true
+    },
+    "kompetensi_2": {
+      "type": "text",
+      "required": true
+    },
+    "kompetensi_3": {
+      "type": "text",
+      "required": true
+    },
+    "kompetensi_4": {
+      "type": "text",
+      "required": true
+    },
+    "kompetensi_5": {
+      "type": "text",
+      "required": true
+    },
+    "kriteria_peserta_1": {
+      "type": "text",
+      "required": true
+    },
+    "kriteria_peserta_2": {
+      "type": "text"
+    },
+    "kriteria_peserta_3": {
+      "type": "text"
+    },
+    "kriteria_peserta_4": {
+      "type": "text"
+    },
+    "kriteria_peserta_5": {
+      "type": "string"
+    },
+    "kriteria_peserta_6": {
+      "type": "text"
+    },
+    "kriteria_peserta_7": {
+      "type": "text"
+    },
+    "kriteria_peserta_8": {
+      "type": "text"
+    },
+    "kriteria_peserta_9": {
+      "type": "text"
+    },
+    "kriteria_peserta_10": {
+      "type": "text"
+    }
+  }
+}

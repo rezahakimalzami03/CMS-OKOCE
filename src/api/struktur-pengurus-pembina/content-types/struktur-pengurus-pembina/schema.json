@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "struktur_pengurus_pembinas",
+  "info": {
+    "singularName": "struktur-pengurus-pembina",
+    "pluralName": "struktur-pengurus-pembinas",
+    "displayName": "Struktur-Pengurus-Pembina"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama_pembina": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "jabatan_pembina": {
+      "type": "string"
+    },
+    "foto_pembina": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

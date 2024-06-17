@@ -1,0 +1,41 @@
+{
+  "name": "okoce-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "vercel-build": "strapi build"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "4.24.1",
+    "@strapi/plugin-i18n": "4.24.1",
+    "@strapi/plugin-users-permissions": "4.24.1",
+    "@strapi/provider-upload-cloudinary": "^4.24.2",
+    "@strapi/strapi": "4.24.1",
+    "@vercel/node": "^3.1.4",
+    "better-sqlite3": "^10.0.0",
+    "pg": "^8.11.5",
+    "pg-connection-string": "^2.6.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "strapi-provider-upload-cloudinary": "^3.6.11",
+    "styled-components": "5.3.3",
+    "vercel": "^34.1.14"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "1d3fdbd9-6c42-411c-b47e-81c1aac5593d"
+  },
+  "engines": {
+    "node": "^18.17.0 || >=20.5.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

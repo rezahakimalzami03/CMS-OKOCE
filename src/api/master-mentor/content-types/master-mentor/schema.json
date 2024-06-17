@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "master_mentors",
+  "info": {
+    "singularName": "master-mentor",
+    "pluralName": "master-mentors",
+    "displayName": "Master-Mentor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url_master_mentor": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "beritas",
+  "info": {
+    "singularName": "berita",
+    "pluralName": "beritas",
+    "displayName": "Berita",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judul_berita": {
+      "type": "string",
+      "required": true
+    },
+    "deskripsi_berita": {
+      "type": "text",
+      "required": true
+    },
+    "tanggal_berita": {
+      "type": "date",
+      "required": true
+    },
+    "foto_berita": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "author_berita": {
+      "type": "text",
+      "required": true
+    },
+    "editor_berita": {
+      "type": "text",
+      "required": true
+    },
+    "foto_content": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "deskripsi_berita_2": {
+      "type": "text",
+      "required": false
+    },
+    "deskripsi_berita_3": {
+      "type": "text",
+      "required": false
+    },
+    "deskripsi_berita_4": {
+      "type": "text",
+      "required": false
+    },
+    "deskripsi_berita_5": {
+      "type": "text",
+      "required": false
+    },
+    "deskripsi_berita_6": {
+      "type": "text"
+    },
+    "deskripsi_berita_7": {
+      "type": "text"
+    },
+    "deskripsi_berita_8": {
+      "type": "text"
+    },
+    "deskripsi_berita_9": {
+      "type": "text"
+    }
+  }
+}

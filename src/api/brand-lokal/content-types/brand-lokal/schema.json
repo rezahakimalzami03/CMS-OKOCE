@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brand_lokals",
+  "info": {
+    "singularName": "brand-lokal",
+    "pluralName": "brand-lokals",
+    "displayName": "Brand-Lokal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judul_brand": {
+      "type": "string",
+      "required": true
+    },
+    "deskripsi_brand": {
+      "type": "text",
+      "required": true
+    },
+    "foto_brand": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

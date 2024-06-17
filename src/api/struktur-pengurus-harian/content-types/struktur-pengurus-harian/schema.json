@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "struktur_pengurus_harians",
+  "info": {
+    "singularName": "struktur-pengurus-harian",
+    "pluralName": "struktur-pengurus-harians",
+    "displayName": "Struktur-Pengurus-Harian"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama_pengurus": {
+      "type": "string",
+      "required": true
+    },
+    "jabatan_pengurus": {
+      "type": "string",
+      "required": true
+    },
+    "foto_pengurus": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
