@@ -1,68 +1,67 @@
-OK OCE INDONESIA CMS
-OK OCE INDONESIA CMS is a custom content management system built with Strapi, offering a structured and intuitive interface for content management. It allows for easy customization and control over all technical aspects of the website.
+# OK OCE INDONESIA CMS
+Ok Oce Indonesia CMS adalah sistem manajemen konten khusus yang dibangun dengan Strapi, menawarkan antarmuka yang terstruktur dan intuitif untuk manajemen konten. Sistem ini memungkinkan kustomisasi yang mudah dan kontrol penuh atas semua aspek teknis dari situs web.
 
-Features
-User-friendly interface with customizable fields
-Flexible content types and dynamic zones
-API creation for seamless integration with front-end systems
-Role-based access control
-Media library for managing images and files
-Plugins for extending functionality
-Installation
-To get started with MyCompany CMS, follow these steps:
+# Fitur
+- Antarmuka ramah pengguna dengan bidang yang dapat disesuaikan
+- Tipe konten yang fleksibel dan zona dinamis
+- Pembuatan API untuk integrasi mulus dengan sistem front-end
+- Kontrol akses berbasis peran
+- Pustaka media untuk mengelola gambar dan file
+- Plugin untuk memperluas fungsionalitas
 
-Clone the repository:
-git clone https://github.com/yourusername/mycompany-cms.git
-cd CMS-OKOCE
+# Instalasi
+Untuk memulai dengan OK OCE CMS, ikuti langkah-langkah berikut:
 
-Install dependencies:
-npm install
+### 1. Clone the repository:
+- git clone https://github.com/rezahakimalzami03/CMS-OKOCE.git
+- cd CMS-OKOCE
 
-Start the Strapi server:
-npm run develop
+### 2. Install Dependencies:
+- npm install
 
-Access the CMS:
-Open your browser and navigate to http://localhost:1337/admin.
+### 3. Start the Strapi server:
+- npm run develop
 
-Configuration
-Database Configuration:
+### 4. Access the CMS:
+- Open your browser and navigate to http://localhost:1337/admin.
 
+# Konfigurasi
+
+### - Database Configuration:
 Strapi supports various databases. To configure the database, edit the config/database.js file with your database details.
 
-Server Configuration:
-
+### - Server Configuration:
 Server settings can be configured in the config/server.js file.
 
-Environment Variables:
-
+### - Environment Variables:
 Create a .env file in the root directory to manage environment variables. Refer to .env.example for the required variables.
 
-Usage
-Admin Panel:
+# Penggunaan
+### - Admin Panel:
+- Access the admin panel at http://localhost:1337/admin.
+- Create and manage content types.
+- Use the media library to upload and manage files.
 
-Access the admin panel at http://localhost:1337/admin.
-Create and manage content types.
-Use the media library to upload and manage files.
-API Usage:
-
+### - API Usage:
 Strapi automatically generates RESTful and GraphQL APIs for your content types.
 Refer to the Strapi Documentation for detailed API usage.
-Contributing
-We welcome contributions to improve MyCompany CMS. To contribute, please follow these steps:
 
-Fork the repository.
-Create a new branch:
-git checkout -b feature/your-feature-name
+# Kontribusi
+We welcome contributions to improve OK OCE CMS. To contribute, please follow these steps:
 
-Make your changes and commit them:
+### Fork the repository.
+- Create a new branch:
+- git checkout -b feature/your-feature-name
+
+### Make your changes and commit them:
 git commit -m "Add feature"
 
-Push to the branch:
-git push origin feature/your-feature-name
-Create a pull request.
+### Push to the branch:
+- git push origin feature/your-feature-name
+- Create a pull request.
 
-License
+# License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Contact
+# Contact
 For any questions or support, please contact me at rezahakimalzami03@gmail.com
